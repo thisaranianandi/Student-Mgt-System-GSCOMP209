@@ -1,0 +1,10 @@
+# Default line endings for all text files
+* text=auto
+
+# Enforce LF for specific file types
+*.js text eol=lf
+*.jsx text eol=lf
+
+# Force binary files to be treated as-is
+*.png binary
+*.jpg binary
