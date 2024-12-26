@@ -42,7 +42,7 @@ const DepartmentComponent = () => {
                 />
               </div>
               <button
-                className="btn btn-outline-success"
+                className="btn btn-outline-success" style={{borderColor:"purple", color:"purple"}}
                 onClick={saveOrUpdateDepartment}
               >
                 Submit

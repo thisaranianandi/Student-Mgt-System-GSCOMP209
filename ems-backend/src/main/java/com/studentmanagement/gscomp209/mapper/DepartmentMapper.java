@@ -1,7 +1,7 @@
-package net.fernandosalas.ems.mapper;
+package com.studentmanagement.gscomp209.mapper;
 
-import net.fernandosalas.ems.dto.DepartmentDto;
-import net.fernandosalas.ems.entity.Department;
+import com.studentmanagement.gscomp209.dto.DepartmentDto;
+import com.studentmanagement.gscomp209.entity.Department;
 
 public class DepartmentMapper {
     public static DepartmentDto mapToDepartmentDto(Department department) {

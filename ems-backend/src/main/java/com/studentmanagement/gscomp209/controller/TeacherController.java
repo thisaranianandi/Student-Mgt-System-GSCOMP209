@@ -1,8 +1,8 @@
-package net.fernandosalas.ems.controller;
+package com.studentmanagement.gscomp209.controller;
 
-import net.fernandosalas.ems.dto.TeacherDto;
+import com.studentmanagement.gscomp209.dto.TeacherDto;
 import org.springframework.http.ResponseEntity;
-import net.fernandosalas.ems.service.TeacherService;
+import com.studentmanagement.gscomp209.service.TeacherService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

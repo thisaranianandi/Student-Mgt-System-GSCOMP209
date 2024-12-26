@@ -7,7 +7,7 @@ const ListDepartmentComponent = () => {
 
   return (
     <div className="container">
-      <h2 className="text-center py-3">List of Departments</h2>
+      <h2 className="text-center py-3" style={{borderColor:"purple", color:"purple"}}>Details of Departments</h2>
       <ButtonLink text="Add Department" toAction="/add-department" />
       <table className="table table-striped">
         <thead>
@@ -26,7 +26,7 @@ const ListDepartmentComponent = () => {
                 <td>{item.departmentDescription}</td>
                 <td>
                   <button
-                    className="btn btn-outline-info me-2"
+                    className="btn btn-outline-info me-2" style={{borderColor:"purple", color:"purple"}}
                     onClick={() => updateDepartment(item.id)}
                   >
                     Update

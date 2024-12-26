@@ -1,4 +1,4 @@
-package net.fernandosalas.ems.dto;
+package com.studentmanagement.gscomp209.dto;
 
 public class TeacherDto {
 

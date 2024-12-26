@@ -1,7 +1,7 @@
-package net.fernandosalas.ems.mapper;
+package com.studentmanagement.gscomp209.mapper;
 
-import net.fernandosalas.ems.entity.Teacher;
-import net.fernandosalas.ems.dto.TeacherDto;
+import com.studentmanagement.gscomp209.dto.TeacherDto;
+import com.studentmanagement.gscomp209.entity.Teacher;
 import org.springframework.stereotype.Component;
 
 @Component

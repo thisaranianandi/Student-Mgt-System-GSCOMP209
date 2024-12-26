@@ -1,4 +1,4 @@
-package net.fernandosalas.ems;
+package com.studentmanagement.gscomp209;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

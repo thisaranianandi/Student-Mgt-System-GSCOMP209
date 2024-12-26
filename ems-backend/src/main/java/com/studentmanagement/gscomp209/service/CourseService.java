@@ -1,6 +1,7 @@
-package net.fernandosalas.ems.service;
+package com.studentmanagement.gscomp209.service;
 
-import net.fernandosalas.ems.dto.CourseDto;
+import com.studentmanagement.gscomp209.dto.CourseDto;
+
 import java.util.List;
 
 public interface CourseService {

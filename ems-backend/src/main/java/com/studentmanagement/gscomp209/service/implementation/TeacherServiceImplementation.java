@@ -1,10 +1,10 @@
-package net.fernandosalas.ems.service.implementation;
+package com.studentmanagement.gscomp209.service.implementation;
 
-import net.fernandosalas.ems.service.TeacherService;
-import net.fernandosalas.ems.entity.Teacher;
-import net.fernandosalas.ems.mapper.TeacherMapper;
-import net.fernandosalas.ems.repository.TeacherRepository;
-import net.fernandosalas.ems.dto.TeacherDto;
+import com.studentmanagement.gscomp209.dto.TeacherDto;
+import com.studentmanagement.gscomp209.mapper.TeacherMapper;
+import com.studentmanagement.gscomp209.repository.TeacherRepository;
+import com.studentmanagement.gscomp209.service.TeacherService;
+import com.studentmanagement.gscomp209.entity.Teacher;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

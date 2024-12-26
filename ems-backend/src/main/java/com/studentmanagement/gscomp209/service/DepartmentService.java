@@ -1,5 +1,6 @@
-package net.fernandosalas.ems.service;
-import net.fernandosalas.ems.dto.DepartmentDto;
+package com.studentmanagement.gscomp209.service;
+import com.studentmanagement.gscomp209.dto.DepartmentDto;
+
 import java.util.List;
 
 public interface DepartmentService {

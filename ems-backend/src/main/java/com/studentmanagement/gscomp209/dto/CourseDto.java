@@ -1,4 +1,4 @@
-package net.fernandosalas.ems.dto;
+package com.studentmanagement.gscomp209.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

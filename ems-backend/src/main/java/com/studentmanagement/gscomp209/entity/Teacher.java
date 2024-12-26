@@ -1,4 +1,4 @@
-package net.fernandosalas.ems.entity;
+package com.studentmanagement.gscomp209.entity;
 
 import jakarta.persistence.*;
 

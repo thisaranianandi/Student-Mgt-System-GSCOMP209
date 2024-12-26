@@ -1,5 +1,6 @@
-package net.fernandosalas.ems.service;
-import  net.fernandosalas.ems.dto.TeacherDto;
+package com.studentmanagement.gscomp209.service;
+import com.studentmanagement.gscomp209.dto.TeacherDto;
+
 import java.util.List;
 
 public interface TeacherService {

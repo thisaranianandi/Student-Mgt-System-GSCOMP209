@@ -7,7 +7,7 @@ const ListStudentComponent = () => {
 
   return (
     <div className="container">
-      <h2 className="text-center my-3">List of Students</h2>
+      <h2 className="text-center my-3" style={{color:'purple'}}>Details of Students</h2>
       <ButtonLink text="Add Student" toAction="/add-student" />
       <table className="table table-striped">
         <thead>
@@ -38,7 +38,7 @@ const ListStudentComponent = () => {
                 </td>
                 <td>
                   <button
-                    className="btn btn-outline-info"
+                    className="btn btn-outline-info" style={{borderColor:"purple", color:"purple"}}
                     onClick={() => updateStudent(item.id)}
                   >
                     Update

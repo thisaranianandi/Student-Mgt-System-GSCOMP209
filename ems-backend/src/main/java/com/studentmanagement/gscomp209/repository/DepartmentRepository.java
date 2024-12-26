@@ -1,6 +1,6 @@
-package net.fernandosalas.ems.repository;
+package com.studentmanagement.gscomp209.repository;
 
-import net.fernandosalas.ems.entity.Department;
+import com.studentmanagement.gscomp209.entity.Department;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface DepartmentRepository extends JpaRepository<Department, Long> {

@@ -1,8 +1,8 @@
-package net.fernandosalas.ems.controller;
+package com.studentmanagement.gscomp209.controller;
 
 import lombok.AllArgsConstructor;
-import net.fernandosalas.ems.dto.CourseDto;
-import net.fernandosalas.ems.service.CourseService;
+import com.studentmanagement.gscomp209.dto.CourseDto;
+import com.studentmanagement.gscomp209.service.CourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,13 +1,13 @@
-package net.fernandosalas.ems.service.implementation;
+package com.studentmanagement.gscomp209.service.implementation;
+import com.studentmanagement.gscomp209.dto.StudentDto;
+import com.studentmanagement.gscomp209.entity.Department;
+import com.studentmanagement.gscomp209.entity.Student;
+import com.studentmanagement.gscomp209.exception.ResourceNotFoundException;
+import com.studentmanagement.gscomp209.repository.DepartmentRepository;
+import com.studentmanagement.gscomp209.repository.StudentRepository;
 import lombok.AllArgsConstructor;
-import net.fernandosalas.ems.dto.StudentDto;
-import net.fernandosalas.ems.entity.Department;
-import net.fernandosalas.ems.entity.Student;
-import net.fernandosalas.ems.exception.ResourceNotFoundException;
-import net.fernandosalas.ems.mapper.StudentMapper;
-import net.fernandosalas.ems.repository.DepartmentRepository;
-import net.fernandosalas.ems.repository.StudentRepository;
-import net.fernandosalas.ems.service.StudentService;
+import com.studentmanagement.gscomp209.mapper.StudentMapper;
+import com.studentmanagement.gscomp209.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

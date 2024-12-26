@@ -1,6 +1,6 @@
-package net.fernandosalas.ems.mapper;
-import net.fernandosalas.ems.dto.StudentDto;
-import net.fernandosalas.ems.entity.Student;
+package com.studentmanagement.gscomp209.mapper;
+import com.studentmanagement.gscomp209.dto.StudentDto;
+import com.studentmanagement.gscomp209.entity.Student;
 
 public class StudentMapper {
     public static StudentDto mapToStudentDto(Student student) {

@@ -1,7 +1,7 @@
-package net.fernandosalas.ems.mapper;
+package com.studentmanagement.gscomp209.mapper;
 
-import net.fernandosalas.ems.dto.CourseDto;
-import net.fernandosalas.ems.entity.Course;
+import com.studentmanagement.gscomp209.dto.CourseDto;
+import com.studentmanagement.gscomp209.entity.Course;
 
 public class CourseMapper {
 

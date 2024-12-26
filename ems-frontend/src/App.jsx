@@ -10,6 +10,7 @@ import ListCourseComponent from "./components/ListCourseComponent";
 import CourseComponent from "./components/CourseComponent";
 import ListTeacherComponent from "./components/ListTeacherComponent";
 import TeacherComponent from "./components/TeacherComponent";
+import StudentReports from "./components/StudentReports";
 
 function App() {
   return (
@@ -28,10 +29,18 @@ function App() {
           <Route path="/add-course" element={<CourseComponent />} />
           <Route path="/teachers" element={<ListTeacherComponent />} />
           <Route path="/add-teacher" element={<TeacherComponent />} />
-
+          <Route path="/student-reports" element={<StudentReports />} />
           <Route
             path="/edit-department/:id"
             element={<DepartmentComponent />}
+          />
+          <Route
+            path="/edit-course/:id"
+            element={<CourseComponent/>}
+          />
+          <Route
+            path="/edit-teacher/:id"
+            element={<TeacherComponent/>}
           />
         </Routes>
       </BrowserRouter>

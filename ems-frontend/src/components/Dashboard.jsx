@@ -30,29 +30,7 @@ const Dashboard = () => {
         <h1>Student Management System</h1>
         <p>Streamlining the management of students and departments in one powerful platform.</p>
       </header>
-
-      {/* Dashboard Section */}
-      {/* <section style={styles.section}>
-        <h2>Dashboard Overview</h2>
-        <div style={styles.cardContainer}>
-          <div style={styles.card}>
-            <h3>Students</h3>
-            <p>Manage student records and personal information.</p>
-            <Link style={styles.link} to="/students">View Students</Link>
-          </div>
-          <div style={styles.card}>
-            <h3>Departments</h3>
-            <p>Manage department details, courses, and staff.</p>
-            <Link style={styles.link} to="/departments">View Departments</Link>
-          </div>
-          <div style={styles.card}>
-            <h3>Reports</h3>
-            <p>Generate reports on student performance and departmental activities.</p>
-            <Link style={styles.link} to="/reports">View Reports</Link>
-          </div>
-        </div>
-      </section> */}
-      <section style={{ padding: '20px', backgroundColor: '#f4f4f9' }}>
+      <section style={{ padding: '20px', backgroundColor: '#faebff' }}>
   <h2>Dashboard Overview</h2>
   <div style={{ display: 'flex', gap: '20px', justifyContent: 'space-around' }}>
     <div style={{ padding: '20px', border: '1px solid #ccc', borderRadius: '8px', textAlign: 'center', backgroundColor: '#fff', boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)' }}>
@@ -74,7 +52,7 @@ const Dashboard = () => {
         }}
         to="/students"
         onMouseEnter={(e) => (e.target.style.backgroundColor = '#5f0d7b')}
-        onMouseLeave={(e) => (e.target.style.backgroundColor = '#c08bd3')}
+        onMouseLeave={(e) => (e.target.style.backgroundColor = '#a61a8a')}
       >
         View Students
       </Link>
@@ -98,7 +76,7 @@ const Dashboard = () => {
         }}
         to="/departments"
         onMouseEnter={(e) => (e.target.style.backgroundColor = '#5f0d7b')}
-        onMouseLeave={(e) => (e.target.style.backgroundColor = '#c08bd3')}
+        onMouseLeave={(e) => (e.target.style.backgroundColor = '#a61a8a')}
       >
         View Departments
       </Link>
@@ -120,9 +98,9 @@ const Dashboard = () => {
           textAlign: 'center',
           transition: 'background-color 0.3s ease',
         }}
-        to="/reports"
+        to="/student-reports"
         onMouseEnter={(e) => (e.target.style.backgroundColor = '#5f0d7b')}
-        onMouseLeave={(e) => (e.target.style.backgroundColor = '#c08bd3')}
+        onMouseLeave={(e) => (e.target.style.backgroundColor = '#a61a8a')}
       >
         View Reports
       </Link>
@@ -193,7 +171,7 @@ const styles = {
     minHeight: '100vh',
   },
   header: {
-    backgroundColor: '#5f0d7b',
+    backgroundColor: '#9f57a2',
     color: '#fff',
     padding: '20px',
     borderRadius: '10px',
@@ -220,7 +198,7 @@ const styles = {
     display: 'inline-block',
     marginTop: '10px',
     padding: '8px 15px',
-    backgroundColor: '#007BFF',
+    backgroundColor: '#9c1aa6',
     color: '#fff',
     borderRadius: '5px',
     textDecoration: 'none',

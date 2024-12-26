@@ -1,6 +1,7 @@
 import ButtonLink from "./ButtonLink";
 import useStudentComponentHook from "../hooks/useStudentComponentHook";
 
+
 const StudentComponent = () => {
   const {
     firstName,
@@ -17,15 +18,19 @@ const StudentComponent = () => {
   } = useStudentComponentHook();
 
   return (
-    <div className="container mt-5">
-      <ButtonLink text="Go Back" toAction="/" />
+    <div className="container mt-5" >
+      {/* <ButtonLink text="Go Back" toAction="/students" /> */}
+      
+      <ButtonLink text="Go Back"  toAction="/students"  />
+      
       <div className="row">
-        <div className="card col-md-6 offset-md-3 offset-md-3">
-          <h2 className="text-center">{title}</h2>
+        <div className="card col-md-6 offset-md-3 offset-md-3" style={{backgroundColor:'#fefdff', padding:'20px'}}>
+          <h2 className="text-center" style={{color:'purple'}}>{title}</h2>
           <div className="card-body">
             <form>
               <div className="form-group mb-2">
                 <label className="form-label">First Name: </label>
+      
                 <input
                   className="form-control"
                   type="text"
@@ -73,13 +78,15 @@ const StudentComponent = () => {
                     );
                   })}
                 </select>
+                
               </div>
               <button
-                className="btn btn-outline-success"
+                className="btn btn-outline-success " style={{ color: 'purple',borderColor: "purple", padding: '10px 20px', borderRadius: '5px', textDecoration: 'none' }}
                 onClick={saveOrUpdateStudent}
               >
                 Submit
               </button>
+              
             </form>
           </div>
         </div>
@@ -87,5 +94,17 @@ const StudentComponent = () => {
     </div>
   );
 };
+
+
+
+
+
+
+
+
+
+
+
+
 
 export default StudentComponent;
