@@ -58,7 +58,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
-		<finalName>employee_system</finalName>
+		<finalName>backend-devops-integration</finalName>
 	</build>
 
 </project>

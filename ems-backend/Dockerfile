@@ -1,10 +1,11 @@
 FROM openjdk:17-jdk
 
-COPY target/employee_system.jar .
+COPY target/backend-devops-integration.jar backend-devops-integration.jar
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "employee_system.jar"]
+ENTRYPOINT ["java", "-jar", "/backend-devops-integration.jar ."]
+
 
 
 
