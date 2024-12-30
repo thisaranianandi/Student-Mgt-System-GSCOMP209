@@ -3,20 +3,19 @@ MTA Wickramasinghe – GSCOMP209 – Intake VI
 CSC 554 2.0 Net-centric Computing and System Administration
 ________________________________________
 Introduction
-The Student Management System is developed as part of an assignment to showcase the use of modern web technologies. It integrates a Spring Boot backend with a React.js frontend to facilitate efficient management of students, departments, courses, and teachers. This project demonstrates containerization using Docker and automates the deployment process with Jenkins CI/CD pipelines.
+ The Student Management System is developed as part of an assignment to showcase the use of modern web technologies. It integrates a Spring Boot backend with a React.js frontend to facilitate efficient management of students, departments, courses, and teachers. This project demonstrates containerization using Docker and automates the deployment process with Jenkins CI/CD pipelines.
 ________________________________________
 Features
-1.	Admin Authentication: Secure login functionality for administrators.
-2.	Student Management:
+1.	Student Management:
 o	Add, update, and delete student details.
 o	Assign students to specific departments.
-3.	Department Management:
+2.	Department Management:
 o	Full CRUD operations for departments.
-4.	Course Management:
+3.	Course Management:
 o	Add, edit, and delete courses.
-5.	Teacher Management:
+4.	Teacher Management:
 o	Register teachers and assign them to courses.
-6.	Reports:
+5.	Reports:
 o	Generate and download student-related reports.
 ________________________________________
 Technical Overview
